@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h1, h2 {
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: rgb(176, 185, 194) 5px 3px 15px;
+    letter-spacing: 1px;
+    padding: 5%;
+    
+}
+
+
+
+p {
+    margin: 3%;
+    padding: 10px;
+    color: white;
+    font-family: 'Ruda', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+
+   
+}
+.chorous{
+    font-family: 'Cookie', cursive;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    text-shadow: rgba(248, 249, 251, 0.559) 5px 3px 15px;
+    
+}
+.yelling{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+img {
+   
+    margin: 8%;
+    margin-left: 0;
+    max-width: auto;
+    height: 100vh;
+    border: white solid 2px;
+    
+}
+

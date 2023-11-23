@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.HeadNav nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(245,66,7,1) 1%, rgba(241,107,40,1) 50%, rgba(230,125,45,1) 100%);
+    height: 10vh;
+    position: sticky;
+    
+}
+.HeadNav h1 {
+    color: #f9c417;
+    text-shadow: 4px 2px 2px #c61e05;
+    font-family: 'Lilita One', sans-serif;
+    letter-spacing: .2rem;
+    font-size: 3rem;
+    
+
+}
+.landing{
+    margin: 5rem;
+    height: 100vh;
+    background-image: url(../Assets/SKWINKLES.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bestSeller{
+    width: 100vh;
+    display: flex;
+    margin: 3.5rem;
+
+   
+}
+.bestSeller img{
+    margin: 0;
+    padding: 0;
+    width: 45vw;
+
+}
+.bestSeller2{
+    width: 40vw;
+}
+.subHeader1{
+    color: #f9c417;
+    text-shadow: 4px 2px 2px #c61e05;
+    font-family: 'Lilita One', sans-serif;
+    letter-spacing: .2rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin:2rem;
+}
+#Photos{
+    display: flex;
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    padding-top:0;
+    margin-top: 1rem;
+} 
+#Photos img{
+
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+#Photos img:hover{
+    cursor:pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    padding-top: 30px;
+    
+}
+footer{
+    height: 60vh;
+    display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+    background: linear-gradient(90deg, rgba(245,66,7,1) 1%, rgba(241,107,40,1) 50%, rgba(230,125,45,1) 100%);
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    padding-bottom: 2rem;
+    display: flex;
+   justify-content: space-evenly
+}
+.Icon{
+    color: rgba(245,66,7,1);
+
+}
+.perks{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 3rem;
+}
+#quick-contact-form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#quick-contact-form h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#quick-contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+#quick-contact-form input,
+#quick-contact-form textarea {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#quick-contact-form button {
+    background-color: #d0250a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
